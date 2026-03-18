@@ -77,16 +77,14 @@ TaskFlow/
 
 ---
 
-### Step 1 — Download cpp-httplib
+### Step 1 — Get cpp-httplib
 
-Place `httplib.h` inside the `backend/` folder.
+`httplib.h` is already included in this repository — no download needed.
 
-```bash
-cd backend
-curl -sL https://raw.githubusercontent.com/yhirose/cpp-httplib/master/httplib.h -o httplib.h
-```
+Simply make sure it is inside the `backend/` folder alongside `server.cpp` before compiling.
 
-Or download manually from: https://github.com/yhirose/cpp-httplib
+> **Optional:** To update to the latest version, download `httplib.h` manually from
+> https://github.com/yhirose/cpp-httplib and replace the existing file.
 
 ---
 
